@@ -1,8 +1,72 @@
+html{
+  background-color: rgba(0,0,0,.5);
+ 
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: rgba(225,225,225,1);
+  font-size: 20px;
 }
 
 a {
-  color: #00B7FF;
+  color: rgba(225,225,225,1);
+}
+
+.Link{
+  text-decoration: none;
+}
+.itemDisplay{
+  display: flex;
+  flex-direction: column;
+  justify-content:  center;
+  align-items: center;
+}
+
+.itemContiner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 200px;
+}
+
+.skillStyle{
+  height: 40px;
+  width: 60px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 40px;
+  text-decoration: none;
+ 
+}
+
+
+.skillStyle:hover{
+  color: black;
+  background-color: rgba(255,255,240,.5);
+}
+
+.Link:hover{
+  color: black;
+  background-color: rgba(255,255,240,.5);
+}
+
+.Link{
+  padding-top: 20px;
+  height: 50px;
+  width: 100px;
+}
+
+h3{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.btn{
+  height: 30px;
+  width: 60px;
+  color: black;
+  font-size: 18px;
 }

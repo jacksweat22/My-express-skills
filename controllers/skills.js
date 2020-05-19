@@ -3,7 +3,7 @@ const Skill = require('../models/skill')
 const index = (req, res, next) => {
   res.render('skills/index', {
     skills: Skill.getAll(),
-    time: req.time
+    // time: req.time
   })
 }
 

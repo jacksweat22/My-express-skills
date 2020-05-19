@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>New Dev Skills</title>
+    <title>My-Skills</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1>Skill</h1>
+    <h1>Skill Details</h1>
     <h3><%= skill.skill %></h3>
-    <h3>learned? <%= skill.learned ? 'yes' : 'not quite' %></h3>
+    <h3>Learned: <%= skill.learned ? 'Yes' : 'No' %></h3>
+    <a href="/">Home</a>
+    <button class="btn" type="submit" value="Edit">Edit</button>
   </body>
 </html>
